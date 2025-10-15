@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LumensLED - Transformamos Momentos em Memórias Inesquecíveis</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <nav class="navbar">
+            <div class="logo">LUMENS<span>LED</span></div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato" class="btn-contato">Fale Conosco</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Transformamos Momentos em <br><span>Memórias Inesquecíveis</span></h1>
+            <p>Produção completa de eventos corporativos, sociais e especiais com excelência e sofisticação.</p>
+            <div class="hero-buttons">
+                <a href="#contato" class="btn-primary">Realizar meu Evento →</a>
+                <a href="#portfolio" class="btn-secondary">Ver Portfólio</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="sobre" class="section-sobre">
+        <h2>Sobre a <span>Lumens</span></h2>
+        <p class="subtitle">Há mais de 5 anos transformando sonhos em realidade</p>
+        
+        <div class="sobre-content-grid">
+            <div class="historia">
+                <h3>Nossa História</h3>
+                <p>Fundada em 2019 por João Carlos Vieira, empresário com mais de 20 anos de experiência no ramo de eventos...</p>
+                <p>Nascemos pouco antes da pandemia, mas demonstramos resiliência, foco e inovação, garantindo a qualidade na prestação de serviços.</p>
+                <ul class="diferenciais">
+                    <li><i class="fas fa-check-circle"></i> **Pioneirismo Regional:** Fomos a primeira Empresa na região a lançar as telas interativas...</li>
+                    <li><i class="fas fa-check-circle"></i> **Expertise Comprovada:** Atendemos grandes eventos sociais (15 anos, casamentos) e corporativos...</li>
+                    <li><i class="fas fa-check-circle"></i> **Qualidade e Estrutura:** Oferecemos a melhor opção em painel de Led e estrutura...</li>
+                </ul>
+            </div>
+            
+            <div class="cards-beneficios">
+                <div class="card-beneficio">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Equipe Especializada</h4>
+                    <p>Profissionais experientes dedicados ao seu evento</p>
+                </div>
+                <div class="card-beneficio">
+                    <i class="fas fa-medal"></i>
+                    <h4>Excelência Comprovada</h4>
+                    <p>Anos de experiência em eventos memoráveis</p>
+                </div>
+                <div class="card-beneficio">
+                    <i class="fas fa-heart"></i>
+                    <h4>Atendimento Personalizado</h4>
+                    <p>Cada detalhe pensado especialmente pra você</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="servicos" class="section-servicos">
+        <h2>Fazemos <span>Tudo Acontecer</span></h2>
+        <p class="subtitle">Do planejamento à execução, nossa equipe cuida de cada aspecto do seu evento. Transformamos sua visão em realidade com criatividade, profissionalismo e dedicação total.</p>
+        
+        <div class="servicos-grid">
+            <div class="servico-item">
+                <i class="fas fa-lightbulb"></i>
+                <h4>Conceito Criativo</h4>
+                <p>Desenvolvemos ideias únicas para seu evento</p>
+            </div>
+            <div class="servico-item">
+                <i class="fas fa-palette"></i>
+                <h4>Design Exclusivo</h4>
+                <p>Cenografia e decoração personalizadas</p>
+            </div>
+            <div class="servico-item">
+                <i class="fas fa-volume-up"></i>
+                <h4>Produção Audiovisual</h4>
+                <p>Led, som e iluminação.</p>
+            </div>
+            <div class="servico-item">
+                <i class="fas fa-bolt"></i>
+                <h4>Execução Impecável</h4>
+                <p>Gerenciamento completo do evento</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-portfolio">
+        <h2>Nosso <span>Portfólio</span></h2>
+        <p class="subtitle">Conheça alguns dos eventos incríveis que já realizamos</p>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-event-id="sofia-ribeiro">
+                <img src="caminho/para/imagem1.jpg" alt="15 Anos Sofia Ribeiro">
+                <span class="tag">15 Anos</span>
+                <div class="info">
+                    <h5>Sofia Ribeiro</h5>
+                    <p>Iate Clube Aquidabã - Angra dos Reis, RJ</p>
+                    <button class="open-modal-btn">Ver Fotos</button>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-event-id="casamento-victor-guilherme">
+                <img src="caminho/para/imagem2.jpg" alt="Casamento Victor e Guilherme">
+                <span class="tag">Casamento</span>
+                <div class="info">
+                    <h5>Victor e Guilherme</h5>
+                    <p>Iate Clube Aquidabã - Angra dos Reis, RJ</p>
+                    <button class="open-modal-btn">Ver Fotos</button>
+                </div>
+            </div>
+
+            </div>
+    </section>
+
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-location"></p>
+            <div id="modal-image-gallery">
+                </div>
+        </div>
+    </div>
+    
+    <section id="equipe" class="section-equipe">
+        <h2>Nossa <span>Equipe</span></h2>
+        <p class="subtitle">Profissionais apaixonados e experientes dedicados a tornar seu evento perfeito</p>
+        
+        <div class="equipe-grid">
+            <div class="membro">
+                <img src="caminho/para/joao-carlos.jpg" alt="João Carlos">
+                <h5>João Carlos</h5>
+                <p>Diretor Comercial e Projetos</p>
+            </div>
+            <div class="membro">
+                <img src="caminho/para/rodrigo.jpg" alt="Rodrigo">
+                <h5>Rodrigo</h5>
+                <p>Gerente de Projetos e Logística</p>
+            </div>
+            <div class="membro">
+                <img src="caminho/para/luisinho.jpg" alt="Luisinho">
+                <h5>Luisinho</h5>
+                <p>Técnico Operacional</p>
+            </div>
+            <div class="membro">
+                <img src="caminho/para/maria-eduarda.jpg" alt="Maria Eduarda">
+                <h5>Maria Eduarda</h5>
+                <p>Assistente Administrativo</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="videos" class="section-videos">
+        <h2>Vídeos dos <span>Nossos Eventos</span></h2>
+        <p class="subtitle">Assista a grande eventos realizados</p>
+        
+        <div class="videos-grid">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/EXEMPLO_ID_DO_VIDEO_1" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/EXEMPLO_ID_DO_VIDEO_2" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            </div>
+    </section>
+
+    <section id="orcamento" class="section-orcamento">
+        <h3>Pronto para realizar seu evento?</h3>
+        <p>Nossa equipe está pronta para criar uma experiência única e inesquecível. Entre em contato e vamos começar a planejar juntos!</p>
+        <a href="#" class="btn-primary">Solicitar Orçamento</a>
+    </section>
+
+    <footer id="contato" class="footer">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <p>Transformando momentos em memórias inesquecíveis desde 2019</p>
+                <div class="redes-sociais">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contato">
+                <h4>Contato</h4>
+                <p>📞 24 99905-4250</p>
+                <p>📍 Volta Redonda, RJ</p>
+            </div>
+            
+            <div class="footer-localizacao">
+                <h4>Nossa Localização</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117623.50428414418!2d-44.1565578768992!3d-22.52041285324508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9e9841315b746d%3A0x629551c6c8c45d3e!2sVolta%20Redonda%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1668854400000!5m2!1spt-BR!2sbr" 
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 LumensLED. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
