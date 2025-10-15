@@ -105,6 +105,10 @@ h2 span, h3 span {
     width: 100%;
     display: flex;
     justify-content: space-between;
+
+    /* PROPRIEDADE PARA ALINHAR TUDO VERTICALMENTE NO CENTRO */
+    align-items: center; 
+    
     align-items: center;
     padding: 15px 5%;
     background-color: rgba(0, 0, 0, 0.8);
