@@ -132,7 +132,7 @@ h2 span, h3 span {
 .navbar ul li a {
     color: var(--text-light);
     text-decoration: none;
-    padding: 0 15px;
+    padding: 10 15px;
     transition: color 0.3s;
 }
 
