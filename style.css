@@ -12,7 +12,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif; /* Use uma fonte mais sofisticada em um projeto real */
+    font-family: 'Poppins', sans-serif; /* Use uma fonte mais sofisticada em um projeto real */
 }
 
 body {
@@ -89,7 +89,6 @@ h2 span, h3 span {
 #inicio {
     background-color: var(--bg-dark);
     color: var(--text-light);
-    background-image: url('caminho/para/fundo-escuro.jpg'); /* Adicione sua imagem de fundo */
     background-size: cover;
     background-position: center;
     min-height: 85vh;
